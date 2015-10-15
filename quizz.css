@@ -1,0 +1,35 @@
+header {
+	border: 1px solid pink;
+}
+
+
+nav ul li {
+  display: inline;
+  padding-right: 7px;
+}
+span.disabled {
+	color: gray;
+}
+a span.disabled {
+	color: red;
+}
+span.active {
+	color: yellow;
+}
+div.parent div:first-child:not(:last-child) {
+color: red;
+
+}
+div.parent h4:not(:first-child):not(:last-child) {
+	background-color:red;
+}
+div.parent h4:last-child {
+  background-color: blue;
+}
+div.parent div:nth-child(2n+1) {
+  color: blue;
+}
+div.grandparent h4:nth-child(2n+0):last-child  {
+  border: 1px solid red;
+  border-radius: 20px;
+}
