@@ -11,7 +11,7 @@ span.disabled {
 	color: gray;
 }
 a span.disabled {
-	color: red;
+	color: purple;
 }
 span.active {
 	color: yellow;
